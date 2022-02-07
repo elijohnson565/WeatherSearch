@@ -1,0 +1,48 @@
+header h1{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: white;
+    background-color: cornflowerblue;
+    width: 100%;
+}
+
+.column-1{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+#row-2{
+    border: solid;
+    border-color: thistle;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.border{
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+}
+
+.cities{
+    background-color:thistle;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    font-size: large;
+}
+
+@media (max-width: 480px) {
+    .column-1{
+        margin-top: 10px;
+        padding: 30px;
+    }
+
+    .searchh1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
